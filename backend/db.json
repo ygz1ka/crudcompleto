@@ -1,0 +1,32 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Administrador",
+      "sobrenome": "CineFlix",
+      "cpf": "00000000000",
+      "email": "admin@cineflix.com",
+      "senha": "123456",
+      "rua": "Rua Exemplo",
+      "cep": "00000000",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "telefone": "11999999999",
+      "admin": true
+    },
+    {
+      "nome": "Ygor",
+      "sobrenome": "Dias",
+      "cpf": "11111111111",
+      "email": "ygor@email.com",
+      "senha": "123456",
+      "rua": "Italo",
+      "cep": "00000000",
+      "cidade": "Mogi",
+      "estado": "SP",
+      "telefone": "11 999920290",
+      "admin": false,
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entrar | CineFlix</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="auth-page">
+    <header class="topbar">
+      <a class="logo" href="index.html">CINE<span>FLIX</span></a
+      ><span class="top-caption">Seu universo de filmes começa aqui</span>
+    </header>
+    <main class="auth-layout">
+      <section class="intro">
+        <div class="eyebrow">SUA SESSÃO COMEÇA AQUI</div>
+        <h1>Histórias incríveis.<br /><em>Um clique de distância.</em></h1>
+        <p>Entre para explorar seu catálogo de filmes e séries favoritos.</p>
+        <div class="decor-row">
+          <span>FILMES</span><span>SÉRIES</span><span>ORIGINAIS</span>
+        </div>
+      </section>
+      <section class="panel auth-panel">
+        <p class="panel-kicker">BEM-VINDO DE VOLTA</p>
+        <h2>Entrar na sua conta</h2>
+        <p class="muted">Informe seu e-mail e senha para continuar.</p>
+        <form id="formLogin">
+          <label for="email">E-mail</label
+          ><input
+            type="email"
+            id="email"
+            placeholder="seuemail@exemplo.com"
+            required
+          /><label for="senha">Senha</label
+          ><input
+            type="password"
+            id="senha"
+            placeholder="Digite sua senha"
+            required
+          /><button type="submit">
+            Entrar <span aria-hidden="true">→</span>
+          </button>
+        </form>
+        <p class="hint" id="mensagem" role="status"></p>
+        <p class="foot-text">
+          Ainda não tem uma conta? <a href="cadastro.html">Cadastre-se agora</a>
+        </p>
+      </section>
+    </main>
+    <footer>Projeto escolar • Inspirado na Netflix • SENAI</footer>
+    <script src="js/login.js"></script>
+  </body>
+</html>

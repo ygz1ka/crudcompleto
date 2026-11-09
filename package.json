@@ -1,0 +1,13 @@
+{
+  "name": "cineflix-projeto-aula",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Projeto de aula com HTML, CSS, JS, Express e JSON Server",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "json-server": "^0.17.4"
+  }
+}

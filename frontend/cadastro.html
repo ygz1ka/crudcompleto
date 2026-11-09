@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criar conta | CineFlix</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="logo" href="index.html">CINE<span>FLIX</span></a
+      ><a class="navlink" href="index.html">Já tenho uma conta</a>
+    </header>
+    <main class="page-shell">
+      <div class="heading">
+        <p class="eyebrow">CADASTRO DE USUÁRIOS • POST</p>
+        <h1>Crie sua conta <span>gratuitamente.</span></h1>
+        <p>Preencha seus dados para entrar no universo CineFlix.</p>
+      </div>
+      <section class="panel wide">
+        <h2>Seus dados</h2>
+        <form id="formCadastro">
+          <div class="form-grid">
+            <div>
+              <label for="nome">Nome</label
+              ><input id="nome" required placeholder="Seu nome" />
+            </div>
+            <div>
+              <label for="sobrenome">Sobrenome</label
+              ><input id="sobrenome" required placeholder="Seu sobrenome" />
+            </div>
+            <div>
+              <label for="cpf">CPF</label
+              ><input
+                id="cpf"
+                required
+                maxlength="14"
+                inputmode="numeric"
+                placeholder="000.000.000-00"
+              />
+            </div>
+            <div>
+              <label for="email">E-mail</label
+              ><input
+                id="email"
+                type="email"
+                required
+                placeholder="seuemail@exemplo.com"
+              />
+            </div>
+            <div class="full">
+              <label for="senha">Senha</label
+              ><input
+                id="senha"
+                type="password"
+                required
+                placeholder="Crie uma senha"
+              />
+            </div>
+            <div class="full section-title">Endereço e contato</div>
+            <div>
+              <label for="rua">Rua</label
+              ><input id="rua" required placeholder="Nome da rua" />
+            </div>
+            <div>
+              <label for="cep">CEP</label
+              ><input
+                id="cep"
+                required
+                maxlength="9"
+                inputmode="numeric"
+                placeholder="00000-000"
+              />
+            </div>
+            <div>
+              <label for="cidade">Cidade</label
+              ><input id="cidade" required placeholder="Sua cidade" />
+            </div>
+            <div>
+              <label for="estado">Estado</label
+              ><input id="estado" required maxlength="2" placeholder="SP" />
+            </div>
+            <div class="full">
+              <label for="telefone">Telefone</label
+              ><input id="telefone" required placeholder="(11) 99999-9999" />
+            </div>
+          </div>
+          <button type="submit">
+            Criar minha conta <span aria-hidden="true">→</span>
+          </button>
+          <p class="hint" id="mensagem" role="status"></p>
+        </form>
+        <p class="foot-text">
+          Já possui uma conta? <a href="index.html">Voltar para login</a>
+        </p>
+      </section>
+    </main>
+    <footer>Projeto escolar • Inspirado na Netflix • SENAI</footer>
+    <script src="js/cadastro.js"></script>
+  </body>
+</html>
